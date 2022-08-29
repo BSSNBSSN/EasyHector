@@ -1,0 +1,9 @@
+<launch>
+    <include file="$(find hector)/launch/tf.launch" />
+
+    <include file="$(find hector)/launch/hector.launch" />
+
+    <include file="$(find hector)/launch/rviz.launch" />
+
+    <!-- <include file="$(find hector)/launch/rosbag_record.launch" /> -->
+</launch>

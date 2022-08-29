@@ -1,0 +1,3 @@
+<launch>
+  <node name="rosbag_record" pkg="rosbag" type="record" args="-a" />
+</launch>
